@@ -9,16 +9,16 @@ messages = [
         "role": "user",
         "content": [
             {
-                "text": "What is Amazon Bedrock?"
+                "text": "What is Amazon Bedrock?"  # TODO: Add your prompt here (e.g., "What is Amazon Bedrock?")
             }
         ]
     }
 ]
 
 inf_params = {
-    "maxTokens": 1000,
-    "topP": 0.9,
-    "temperature": 0.9
+    "maxTokens": 1024,
+    "topP": 0.1,
+    "temperature": 0.1
 }
 
 native_request = {
